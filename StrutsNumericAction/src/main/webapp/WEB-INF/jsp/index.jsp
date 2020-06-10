@@ -13,7 +13,7 @@
 	<h1>
 		<s:text name="Welcome to JavaLive!!!!!!!!!!!!!!!!!" />
 	</h1>
-	<s:form action="testAction" method="post" name="myForm">
+	<s:form name="myForm">
 		<s:textfield key="Please Enter Numer1   " name="number1" />
 		<s:textfield key="Please Enter Numer2   " name="number2" />
 		<s:submit action="add" value="add" />

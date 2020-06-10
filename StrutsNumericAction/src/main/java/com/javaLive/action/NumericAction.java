@@ -57,7 +57,7 @@ public class NumericAction extends ActionSupport {
 		this.result = result;
 	}
 
-	public void validate() {
+	public void validate() {// this method is used to validate the fields of JSP.
 		if (this.getNumber1() == 0) {
 			addFieldError("number1", "Number1 is required.");
 		}
